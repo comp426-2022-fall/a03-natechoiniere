@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { roll } from "./lib/roll.js"
+import { roll } from "../lib/roll.js"
 import minimist from "minimist"
 
 var args = process.argv.slice(2);
