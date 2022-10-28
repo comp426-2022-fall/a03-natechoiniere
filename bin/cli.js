@@ -9,4 +9,4 @@ const sides = parsedArgs.sides || 6;
 const dice = parsedArgs.dice || 2;
 const rolls = parsedArgs.rolls || 1;
 
-console.log(roll(sides, dice, rolls));
+console.log(JSON.stringify(roll(sides, dice, rolls)));
