@@ -1,0 +1,30 @@
+{
+  "name": "node-dice",
+  "version": "1.0.0",
+  "description": "Dice-rolling!",
+  "main": "./lib/roll.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a03-natechoiniere.git"
+  },
+  "type": "module",
+  "bin": {
+    "roll-dice": "./bin/cli.js"
+  },
+  "author": "choinierenate",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a03-natechoiniere/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a03-natechoiniere#readme",
+  "dependencies": {
+    "curl": "^0.1.4",
+    "jq": "^1.7.2",
+    "minimist": "^1.2.7",
+    "moment-timezone": "^0.5.39",
+    "node-fetch": "^3.3.0"
+  }
+}
