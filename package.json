@@ -21,8 +21,6 @@
   },
   "homepage": "https://github.com/comp426-2022-fall/a03-natechoiniere#readme",
   "dependencies": {
-    "curl": "^0.1.4",
-    "jq": "^1.7.2",
     "minimist": "^1.2.7",
     "moment-timezone": "^0.5.39",
     "node-fetch": "^3.3.0"
