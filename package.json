@@ -14,7 +14,7 @@
   "bin": {
     "roll-dice": "./bin/cli.js"
   },
-  "author": "choinierenate",
+  "author": "natechoiniere",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/comp426-2022-fall/a03-natechoiniere/issues"
